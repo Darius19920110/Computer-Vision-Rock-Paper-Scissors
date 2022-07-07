@@ -1,6 +1,11 @@
 # Computer-Vision-Rock-Paper-Scissors
 
 > This is a Rock Paper Scissor Game Project
+> ![r_p_s_main_screen](https://user-images.githubusercontent.com/59298965/177686875-73420a3b-e545-43a0-87e3-f49c854c98a0.png)
+> ![r_p_s_computer_chosen_screen](https://user-images.githubusercontent.com/59298965/177686902-56110784-3b2c-4655-95b5-f507be91d853.png)
+> ![r_p_s_in_game_screen](https://user-images.githubusercontent.com/59298965/177686922-7fbde68e-f5b3-4f1c-99d8-09c33cd2c394.png)
+> ![r_p_s_showing_rock](https://user-images.githubusercontent.com/59298965/177686937-21dc1b39-009f-4efc-b1c5-ad722c3154c0.png)
+
 
 ## Milestone 1
 
