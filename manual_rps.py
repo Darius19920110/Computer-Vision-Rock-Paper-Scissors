@@ -36,3 +36,30 @@ def get_user_choice():
         except:
             print("Invalid choice!")
             continue
+
+def get_winner(computer_choice, user_choice):
+    # Create condition who won, and return the winner name, or draw if same has been chosen
+
+    # ! Rock
+    if computer_choice == "rock" and user_choice == "rock":
+        return "draw"
+    elif computer_choice == "rock" and user_choice == "paper":
+        return "user"
+    elif computer_choice == "rock" and user_choice == "scissors":
+        return "computer"
+    # !Paper
+    elif computer_choice == "paper" and user_choice == "rock":
+        return "computer"
+    elif computer_choice == "paper" and user_choice == "paper":
+        return "draw"
+    elif computer_choice == "paper" and user_choice == "scissors":
+        return "user"
+    # !Scissors
+    elif computer_choice == "scissors" and user_choice == "rock":
+        return "user"
+    elif computer_choice == "scissors" and user_choice == "paper":
+        return "computer"
+    elif computer_choice == "scissors" and user_choice == "scissors":
+        return "draw"
+    elif user_choice == "exit":
+        return "exit"
