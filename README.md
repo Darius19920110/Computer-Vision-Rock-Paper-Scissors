@@ -147,3 +147,11 @@ def play():
 
 play()
 ```
+## Milestone 4
+- Creating the game logic with camera input
+- Creating a basic GUI with tkinter
+
+## Conclusions
+- I learned how to use the camera to get user inputs.
+- I was familiar with the rest of the tasks
+- I did not used Classes, because it is small program, but can be upgrade to it for better scalability.
