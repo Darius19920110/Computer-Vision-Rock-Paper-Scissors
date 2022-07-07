@@ -63,3 +63,37 @@ def get_winner(computer_choice, user_choice):
         return "draw"
     elif user_choice == "exit":
         return "exit"
+
+# This is the main function
+def play():
+    # Add function into infinite loop
+    while True:
+        # Create computer choice function and assign the return value to a variable
+        computer_choice = get_computer_choice()
+
+        # Create user choice function and assign the return value to a variable
+        user_choice = get_user_choice()
+
+        # Create winner function and assign the return value to a variable
+        winner = get_winner(computer_choice, user_choice)
+
+        # Conditions, if not met, start over. Print who won or if its draw
+        if winner != "exit":
+            print(f"Computer choose '{computer_choice.upper()}'")
+            
+        if winner == "draw":
+            print("It is Draw!")
+            print("Play Again!")
+            time.sleep(3)
+            continue
+        elif winner == "computer":
+            print("Computer Won!")
+            break
+        elif winner == "user":
+            print("Congratulation, You Won!")
+            break
+        elif winner == "exit":
+            break
+
+# Create the Play function
+play()
